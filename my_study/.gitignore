@@ -1,0 +1,12 @@
+.idea
+target
+*.iml
+logs
+tmp
+/conf
+**/conf
+/sql script
+.idea/
+**/heracles.properties
+*.json
+# Created by .ignore support plugin (hsz.mobi)
