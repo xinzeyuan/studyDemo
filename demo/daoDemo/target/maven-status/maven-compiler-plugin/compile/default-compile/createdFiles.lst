@@ -1,0 +1,6 @@
+com\study\dao\model\ConsumerExample$Criterion.class
+com\study\dao\model\Consumer.class
+com\study\dao\model\ConsumerExample$GeneratedCriteria.class
+com\study\dao\model\ConsumerExample$Criteria.class
+com\study\dao\mapper\ConsumerMapper.class
+com\study\dao\model\ConsumerExample.class

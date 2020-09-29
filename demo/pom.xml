@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.study.demo</groupId>
+    <artifactId>demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>web-demo</module>
+        <module>daoDemo</module>
+        <module>spiDemo</module>
+        <module>implDemo</module>
+    </modules>
+
+    <properties>
+        <confDir>conf</confDir>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>8</java.version>
+        <maven.compiler.version>3.8.0</maven.compiler.version>
+        <maven.jar.version>3.1.1</maven.jar.version>
+        <maven.source.version>3.0.1</maven.source.version>
+        <maven.resources.version>3.1.0</maven.resources.version>
+        <maven.assembly.version>3.1.1</maven.assembly.version>
+        <heracles.version>2.2.2-beta3</heracles.version>
+        <trace-version>4.1.beta9</trace-version>
+        <http-client-version>4.1.4</http-client-version>
+
+        <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
+        <dubbo.starter.versoin>0.2.0</dubbo.starter.versoin>
+        <zk.version>3.4.12</zk.version>
+
+        <fastjson.version>1.2.73</fastjson.version>
+        <lombok.version>1.18.12</lombok.version>
+        <guava-version>25.1-jre</guava-version>
+
+        <sharding-jdbc-version>4.1.0</sharding-jdbc-version>
+        <druid-version>1.1.9</druid-version>
+        <dbcp2-version>2.7.0</dbcp2-version>
+        <mybatis-starter.version>2.1.2</mybatis-starter.version>
+        <mysql-connector-java.version>5.1.49</mysql-connector-java.version>
+        <redisson.version>3.12.5</redisson.version>
+        <spring-kafka.version>2.3.6.RELEASE</spring-kafka.version>
+        <rocktmq.version>4.3.2</rocktmq.version>
+
+        <revesion>1.0-SNAPSHOT</revesion>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- springboot start-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring.boot.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-logging</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-json</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.yaml</groupId>
+                        <artifactId>snakeyaml</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring.boot.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-logging</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-api</artifactId>
+                    </exclusion>
+                </exclusions>
+                <scope>test</scope>
+            </dependency>
+            <dependency> <!-- 引入log4j2依赖 -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-log4j2</artifactId>
+                <version>${spring.boot.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <!-- springboot end-->
+
+            <!-- lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- redisson -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+
+            <!-- kafka -->
+            <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring-kafka.version}</version>
+            </dependency>
+
+            <!-- rocketmq -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-client</artifactId>
+                <version>${rocktmq.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>4.1.50.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.study.demo</groupId>
+                <artifactId>daoDemo</artifactId>
+                <version>${revesion}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                    <!--<release>${java.version}</release>-->
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven.jar.version}</version>
+                <configuration>
+                    <archive>
+                        <addMavenDescriptor>true</addMavenDescriptor>
+                        <index>false</index>
+                        <manifest>
+                            <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

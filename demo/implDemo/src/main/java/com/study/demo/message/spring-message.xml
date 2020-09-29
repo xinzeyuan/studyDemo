@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 事务消息生产者包装类 -->
+    <bean id="transactionMessageProducerWrapper" init-method="start" destroy-method="shutdown"
+          class="com.oppo.iot.smarthome.server.service.message.producer.TransactionMessageProducerWrapper">
+        <property name="producerGroup" value="${rocketmq.producerGroup}"/>
+        <property name="namesrvAddr" value="${rocketmq.namesrvAddr}"/>
+        <property name="retryTimes" value="${rocketmq.producer.retryTimes}"/>
+        <property name="timeout" value="${rocketmq.producer.timeout}"/>
+        <property name="transactionListener" ref="transactionListener"/>
+    </bean>
+
+    <!-- 非事务消息生产者包装类 -->
+    <bean id="defaultMessageProducerWrapper" init-method="start" destroy-method="shutdown"
+          class="com.oppo.iot.smarthome.server.service.message.producer.DefaultMessageProducerWrapper">
+        <property name="producerGroup" value="${rocketmq.defaultProducerGroup}"/>
+        <property name="namesrvAddr" value="${rocketmq.namesrvAddr}"/>
+        <property name="retryTimes" value="${rocketmq.producer.retryTimes}"/>
+        <property name="timeout" value="${rocketmq.producer.timeout}"/>
+    </bean>
+
+    <!-- 消息消费者包装类 -->
+    <bean id="messageConsumer" init-method="start" destroy-method="shutdown"
+          class="com.oppo.iot.smarthome.server.service.message.consumer.MessageConsumerWrapper">
+        <property name="consumerGroup"  value="${rocketmq.consumerGroup}"/>
+        <property name="namesrvAddr" value="${rocketmq.namesrvAddr}"/>
+        <property name="messageListener" ref="concurrentMessageListener"/>
+    </bean>
+
+    <!-- 死信消息消费者包装类 -->
+    <bean id="deadMessageConsumerWrapper" init-method="start" destroy-method="shutdown"
+          class="com.oppo.iot.smarthome.server.service.message.consumer.DeadMessageConsumerWrapper">
+        <property name="consumerGroup" value="${rocketmq.consumerGroup}"/>
+        <property name="namesrvAddr" value="${rocketmq.namesrvAddr}"/>
+        <property name="messageListener" ref="deadMessageConsumer"/>
+    </bean>
+
+    <bean id="transactionListener"
+          class="com.oppo.iot.smarthome.server.service.message.producer.TransactionListenerImpl"/>
+
+    <bean id="concurrentMessageListener"
+          class="com.oppo.iot.smarthome.server.service.message.consumer.MessageDispatcher"/>
+
+    <bean id="deadMessageConsumer"
+          class="com.oppo.iot.smarthome.server.service.message.consumer.DeadMessageConsumer"/>
+
+</beans>

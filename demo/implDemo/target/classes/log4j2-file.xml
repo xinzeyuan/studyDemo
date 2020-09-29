@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <Appenders>
+        <RollingFile name="infoAppender" fileName="logs/info.log" filePattern="logs/info.log.%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} [%level] [%t] [%file : %line] %c{2.} - %m%n%ex</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="warnAppender" fileName="logs/warn.log" filePattern="logs/warn.log.%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} [%level] [%t] [%file : %line] %c{2.} - %m%n%ex</Pattern>
+            </PatternLayout>
+            <Filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+
+        </RollingFile>
+        <RollingFile name="errorAppender" fileName="logs/error.log" filePattern="logs/error.log.%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} [%level] [%t] [%file : %line] %c{2.} - %m%n%ex</Pattern>
+            </PatternLayout>
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <AsyncRoot level="info" includeLocation="true">
+            <AppenderRef ref="infoAppender" />
+            <AppenderRef ref="warnAppender"/>
+            <AppenderRef ref="errorAppender"/>
+        </AsyncRoot>
+    </Loggers>
+</Configuration>

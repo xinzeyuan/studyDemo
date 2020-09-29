@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1161fcd-ddd0-4951-a62b-a915ca502cbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/java/com/study/dao/mapper/ConsumerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/java/com/study/dao/model/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/java/com/study/dao/model/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/resources/generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/resources/mybatis/mappers/ConsumerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/StudeyDemoImplApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/ESProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/MongoDBClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/MongoDBQueryDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/MongoDBUpdateDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/RocketMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/CommonRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/DeleteSomebodySceneDistributedTransactionProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/DistributedTxUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/LocalTransactionChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/LocalTransactionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/TransactionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/DeadMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/DeadMessageConsumerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/MessageConsumerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/MessageDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/producer/DefaultMessageProducerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/producer/TransactionListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/producer/TransactionMessageProducerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/spring-message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/receive/rocketmq/RocketMqMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/log4j2-console.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/log4j2-file.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/redisson-single-node.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/redisson.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/test/java/com/study/demo/impl/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/test/java/com/study/demo/impl/TestElasticsearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/test/java/com/study/demo/impl/testDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/spiDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/web-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/main/java/client/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/main/java/hand/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/main/java/com/study/netty/hand/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/main/java/com/study/netty/server/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smarthome-long-conn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_study/nettyServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study/nettyServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/resources/redisson.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1702">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1909">
+              <caret line="83" selection-start-line="83" selection-end-line="96" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5957">
+              <caret line="259" column="25" selection-start-line="259" selection-start-column="25" selection-end-line="259" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/MqTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/java/com/oppo/iot/smarthome/lc/config/RedissonConfig.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/java/com/oppo/iot/smarthome/lc/config/KafkaConfig.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/java/com/oppo/iot/smarthome/lc/config/RocketMqConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/SimpleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/ServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+      <find>lombok</find>
+      <find>rocketmq</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/smarthome-long-conn" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml" />
+        <option value="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/java/com/oppo/iot/smarthome/lc/config/RocketMqConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="656" />
+    <option name="height" value="496" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smarthome-long-conn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome-long-conn" type="462c0819:PsiDirectoryNode" />
+              <item name="long-conn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oppo" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="smarthome" type="462c0819:PsiDirectoryNode" />
+              <item name="lc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1161fcd-ddd0-4951-a62b-a915ca502cbb" name="Default Changelist" comment="" />
+      <created>1601002696026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601002696026</updated>
+      <workItem from="1601002698393" duration="4185000" />
+      <workItem from="1601017055179" duration="4903000" />
+      <workItem from="1601025436729" duration="2688000" />
+      <workItem from="1601198123325" duration="1031000" />
+      <workItem from="1601199302708" duration="2250000" />
+      <workItem from="1601202200310" duration="1812000" />
+      <workItem from="1601274730713" duration="2293000" />
+      <workItem from="1601349540333" duration="637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19799000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31023455" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="RestServices" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/resources/log4j2-console.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/resources/log4j2-file.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/resources/redisson.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1702">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="83" selection-start-line="83" selection-end-line="96" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5957">
+          <caret line="259" column="25" selection-start-line="259" selection-start-column="25" selection-end-line="259" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/java/com/oppo/iot/smarthome/lc/config/RedissonConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/java/com/oppo/iot/smarthome/lc/config/KafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/main/java/com/oppo/iot/smarthome/lc/config/RocketMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/ServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/MqTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
