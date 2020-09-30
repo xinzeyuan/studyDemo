@@ -2,61 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="787b22ac-57e5-4b18-9f92-cf92ca04d357" name="Default Changelist" comment="xxx">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoDemo/src/main/java/com/study/dao/mapper/ConsumerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoDemo/src/main/java/com/study/dao/model/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoDemo/src/main/java/com/study/dao/model/ConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoDemo/src/main/resources/generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoDemo/src/main/resources/mybatis/mappers/ConsumerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/StudeyDemoImplApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/ESProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/MongoDBClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/MongoDBQueryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/MongoDBUpdateDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/RedissonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/RocketMqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/CommonRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/DeleteSomebodySceneDistributedTransactionProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/DistributedTxUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/LocalTransactionChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/LocalTransactionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/TransactionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/consumer/DeadMessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/consumer/DeadMessageConsumerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/consumer/MessageConsumerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/consumer/MessageDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/producer/DefaultMessageProducerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/producer/TransactionListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/producer/TransactionMessageProducerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/spring-message.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/receive/rocketmq/RocketMqMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/resources/log4j2-console.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/resources/log4j2-file.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/resources/redisson-single-node.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/main/resources/redisson.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/test/java/com/study/demo/impl/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/test/java/com/study/demo/impl/TestElasticsearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/implDemo/src/test/java/com/study/demo/impl/testDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spiDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/main/java/client/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/main/java/hand/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/main/java/com/study/netty/hand/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/main/java/com/study/netty/server/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smarthome-long-conn/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smarthome-long-conn/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smarthome-long-conn/.idea/smarthome-long-conn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smarthome-long-conn/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_study/nettyServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study/nettyServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smarthome-long-conn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smarthome-long-conn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smarthome-long-conn/smarthome-long-conn" beforeDir="false" afterPath="$PROJECT_DIR$/../smarthome-long-conn/smarthome-long-conn" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/KafkaConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="-469">
               <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
@@ -114,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/StudeyDemoImplApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -670,7 +618,7 @@
       <workItem from="1601199299243" duration="2590000" />
       <workItem from="1601202236665" duration="7322000" />
       <workItem from="1601274725026" duration="5947000" />
-      <workItem from="1601349535787" duration="6514000" />
+      <workItem from="1601349535787" duration="7318000" />
     </task>
     <servers />
   </component>
@@ -707,13 +655,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49710000" />
+    <option name="totallyTimeSpent" value="50514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -724,7 +672,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.20368364" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2340195" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1039,16 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/TransactionRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/RedissonConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1088,20 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/KafkaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/ESProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="62" column="2" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/receive/rocketmq/RocketMqMessageListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1116,6 +1040,30 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/ESProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="62" column="2" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/message/TransactionRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/implDemo/src/main/java/com/study/demo/config/KafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>

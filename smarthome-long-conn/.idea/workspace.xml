@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1161fcd-ddd0-4951-a62b-a915ca502cbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/java/com/study/dao/mapper/ConsumerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/java/com/study/dao/model/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/java/com/study/dao/model/ConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/resources/generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/daoDemo/src/main/resources/mybatis/mappers/ConsumerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/StudeyDemoImplApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/ESProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/MongoDBClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/MongoDBQueryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/MongoDBUpdateDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/RedissonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/config/RocketMqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/CommonRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/DeleteSomebodySceneDistributedTransactionProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/DistributedTxUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/LocalTransactionChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/LocalTransactionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/TransactionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/DeadMessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/DeadMessageConsumerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/MessageConsumerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/consumer/MessageDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/producer/DefaultMessageProducerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/producer/TransactionListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/producer/TransactionMessageProducerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/message/spring-message.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/java/com/study/demo/receive/rocketmq/RocketMqMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/log4j2-console.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/log4j2-file.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/redisson-single-node.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/main/resources/redisson.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/test/java/com/study/demo/impl/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/test/java/com/study/demo/impl/TestElasticsearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/implDemo/src/test/java/com/study/demo/impl/testDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/spiDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/web-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/main/java/client/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/main/java/hand/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyClient/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/main/java/com/study/netty/hand/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/main/java/com/study/netty/server/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my_study/nettyServer/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smarthome-long-conn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_study/nettyServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study/nettyServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smarthome-long-conn" beforeDir="false" afterPath="$PROJECT_DIR$/smarthome-long-conn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,7 +113,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="656" />
     <option name="height" value="496" />
   </component>
@@ -513,7 +460,7 @@
     <option name="totallyTimeSpent" value="19799000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31023455" />
