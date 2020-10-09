@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/MqTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="759">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -113,7 +113,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="656" />
     <option name="height" value="496" />
   </component>
@@ -123,8 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,6 +409,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,17 +453,18 @@
       <workItem from="1601202200310" duration="1812000" />
       <workItem from="1601274730713" duration="2293000" />
       <workItem from="1601349540333" duration="637000" />
+      <workItem from="1602207975946" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19799000" />
+    <option name="totallyTimeSpent" value="20498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31023455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31343284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,7 +557,7 @@
     <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/MqTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
