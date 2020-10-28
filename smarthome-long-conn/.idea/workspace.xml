@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f1161fcd-ddd0-4951-a62b-a915ca502cbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarthome-long-conn" beforeDir="false" afterPath="$PROJECT_DIR$/smarthome-long-conn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/smarthome-long-conn/long-conn-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/implDemo/target/classes/com/study/demo/StudeyDemoImplApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/implDemo/target/classes/com/study/demo/StudeyDemoImplApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/implDemo/target/classes/com/study/demo/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/implDemo/target/classes/com/study/demo/config/KafkaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/TestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/TestElasticsearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/TestElasticsearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/testDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/testDao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/testDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/implDemo/target/test-classes/com/study/demo/impl/testDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/MqTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="268">
+              <caret line="51" column="13" selection-start-line="50" selection-start-column="16" selection-end-line="51" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,7 +105,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/smarthome-long-conn" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,6 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,8 +416,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,18 +458,19 @@
       <workItem from="1601202200310" duration="1812000" />
       <workItem from="1601274730713" duration="2293000" />
       <workItem from="1601349540333" duration="637000" />
-      <workItem from="1602207975946" duration="699000" />
+      <workItem from="1602207975946" duration="1387000" />
+      <workItem from="1602842527810" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20498000" />
+    <option name="totallyTimeSpent" value="21776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="0" y="0" width="656" height="496" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31343284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3238255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smarthome-long-conn/long-conn-server/src/test/java/com/oppo/iot/smarthome/lc/MqTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="268">
+          <caret line="51" column="13" selection-start-line="50" selection-start-column="16" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>
